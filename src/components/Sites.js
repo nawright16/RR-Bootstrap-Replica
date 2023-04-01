@@ -1,14 +1,14 @@
-import Image from 'react-bootstrap/Image'
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
+import Image from 'react-bootstrap/Image';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 
 
-export default function StoreListings() {
+ function Sites() {
     return (
         <div style={{ margin: "auto" }}>
-            <h2 style={{ fontSize: "36px", lineHeight: "50px", marginTop: "20px", textAlign: "center", fontWeight: "normal" }}>Browse stores in Houston</h2>
+            <h2 style={{ fontSize: "36px", lineHeight: "50px", marginTop: "20px", textAlign: "center", fontWeight: "normal" }}>Check out these attractions</h2>
             <Container style={{ marginTop: "50px", textAlign: "center" }}>
                 <Row style={{ borderBottom: "1px solid #E8E9EB", display: "flex", justifyContent: "space-evenly"}} >
                     <Row>
@@ -16,7 +16,7 @@ export default function StoreListings() {
                             <Image style={{ height: "55px", width: "50px", border: "1px solid #E8E9EB" }} src="../images/chicago-lion.jpg" alt="lion statue" roundedCircle />
                         </Col>
                         <Col style={{textAlign: "left"}}>
-                            <h5 style={{ fontWeight: "bold" }}>Lion</h5>
+                            <h5 style={{ fontWeight: "bold" }}>Lion Statue</h5>
                             <p>Visit</p>
                         </Col>
                     </Row>
@@ -49,8 +49,8 @@ export default function StoreListings() {
                             <Image style={{ height: "55px", width: "50px", border: "1px solid #E8E9EB" }} src="../images/musci_exchange.jpg" alt="music store" roundedCircle />
                         </Col>
                         <Col style={{textAlign: "left"}}>
-                            <h5 style={{ fontWeight: "bold" }}>ALDI</h5>
-                            <p>beautiful Sounds</p>
+                            <h5 style={{ fontWeight: "bold" }}>Music Exchange</h5>
+                            <p>Beautiful Sounds</p>
                         </Col>
                     </Row>
                     <Col sm="1"></Col>
@@ -66,11 +66,11 @@ export default function StoreListings() {
                     <Col sm="1"></Col>
                     <Row >
                         <Col xs=".5" >
-                            <Image style={{ height: "50px", width: "50px", border: "1px solid #E8E9EB" }} src="../images/wrigly.jpg" alt="wrigley field" roundedCircle />
+                            <Image style={{ height: "50px", width: "50px", border: "1px solid #E8E9EB" }} src="../images/wrigley.jpg" alt="wrigley field" roundedCircle />
                         </Col>
                         <Col md="6">
-                            <h5 style={{ fontWeight: "bold" }}>Kroger</h5>
-                            <p>Catch a Gamw!</p>
+                            <h5 style={{ fontWeight: "bold" }}>Cubs</h5>
+                            <p>Catch a Game!</p>
                         </Col>
                     </Row>
                 </Row>
@@ -79,3 +79,5 @@ export default function StoreListings() {
         </div >
     )
 }
+
+export default Sites;
